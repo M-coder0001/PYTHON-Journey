@@ -12,7 +12,7 @@ password = input ("Enter password: ")
 hash_value3 = hashlib.sha256(Username.encode()).hexdigest()
 hash_value4 = hashlib.sha256(password.encode()).hexdigest()
 
-if stored_username == Username and stored_password == password:
+if hash_value == hash_value3 and hash_value2 == hash_value4:
     print("Username and Password are verified")
 else:
     print("Username or password is incorrect")
