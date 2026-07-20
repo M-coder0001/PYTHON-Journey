@@ -9,4 +9,4 @@ hash_value = hashlib.sha256(Password.encode()).hexdigest()
 #Display result
 print("Original password", Password)
 print("SHA-256 Hash Value")
-print(hash_valu
+print(hash_value)
