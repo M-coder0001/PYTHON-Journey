@@ -101,7 +101,7 @@ for i in range(n, 0, -1):
 
 print("==================================")
 
-print("Alphabet Triangle\n")
+print("9. Alphabet Triangle\n")
 
 for i in range(5):
     for j in range(i + 1):
