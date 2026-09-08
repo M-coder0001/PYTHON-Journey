@@ -11,6 +11,6 @@ class puppy(dog):
         print("Puppy is sleeping")
         
 p = puppy()
-p.eat()  # Inherited method from animal class
-p.bark()  # Inherited method from dog class
-p.sleep()  # Method from puppy class
+p.eat()  
+p.bark() 
+p.sleep()
