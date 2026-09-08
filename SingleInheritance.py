@@ -7,5 +7,5 @@ class dog(animal):
         print("Dog is barking")
         
 b = dog()
-b.eat()  # Inherited method from animal class
-b.bark()  # Method from dog class
+b.eat()  
+b.bark()  
