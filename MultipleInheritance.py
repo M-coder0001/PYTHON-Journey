@@ -1,5 +1,3 @@
-
-
 class animal:
     def eat(self):
         print("Animal is eating")
